@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top wrapper">
+  <a class="navbar-brand" href="#">
+    <img src="../../assets/logo-sew.PNG" alt="Site Logo" style="width: 50px;"/>
+    (SEW) Sekhar Engineering Works</a>
+  <div style="background-color: #474846ed;">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [routerLink]="['/home', { user: 'Shoumya', id: '12' }]"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sew/aboutus">AboutUs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sew/imagegallery">Our Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sew/contactus">Contacts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/sew/feedback">Feedback</a>
+      </li>
+    </ul>
+  </div>
+</nav>

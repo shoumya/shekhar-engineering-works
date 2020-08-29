@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.imgStyle {
+    width: auto;
+    height: 200px;
+    border-bottom: 2px solid #000;
+}
+
+.imgStyle2 {
+    width: auto;    
+    border-bottom: 2px solid #000;
+}
+
+.imageWrapper{
+    display: flex;
+    justify-content: space-between;
+}

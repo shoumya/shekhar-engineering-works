@@ -1,0 +1,10 @@
+.wrapper {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.contentStyle {
+    background-color: #d8e4db7a;
+    padding: 10px;
+}
