@@ -3,7 +3,6 @@
     grid-template-columns: 1fr;
 }
 
-.contentStyle {
-    background-color: #d8e4db7a;
-    padding: 10px;
+p {
+    grid-row: 1
 }

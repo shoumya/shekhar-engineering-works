@@ -13,7 +13,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'home',
+    path: 'sew/home',
     component: HomeComponent
   },
   {
