@@ -3,6 +3,7 @@
     grid-template-columns: 1fr;
     grid-gap: 10px;
     grid-auto-rows: minmax(50px, auto);
+    grid-auto-columns: minmax(200px, auto);
 }
 
 .image {
