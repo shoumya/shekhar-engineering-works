@@ -1,4 +1,10 @@
-.imageStyle {
-    width: auto;
-    border-bottom: 2px solid #000;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.img-class {
+    width: 100%;
 }

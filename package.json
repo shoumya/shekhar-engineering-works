@@ -1,10 +1,12 @@
 {
   "name": "sew-web-application",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server/server.js",
+    "prod-test": "node server/server.js",
+    "local-build-start": "ng serve",
     "build": "ng build",
+    "build-prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

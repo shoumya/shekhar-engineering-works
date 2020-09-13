@@ -1,20 +1,18 @@
-.wrapper {
-    display: flex;
-    justify-content: center;
+.wrapper-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
-.imgStyle {
-    width: auto;
-    height: 200px;
-    border-bottom: 2px solid #000;
+.wrapper-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 2px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
-.imgStyle2 {
-    width: auto;    
-    border-bottom: 2px solid #000;
-}
-
-.imageWrapper{
-    display: flex;
-    justify-content: space-between;
+.img-class {
+    grid-row: 1;
+    width: 100%;
 }
