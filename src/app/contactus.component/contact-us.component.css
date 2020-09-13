@@ -1,6 +1,14 @@
-.wrapper-1 {
+.wrapper {
     display: grid;
-    grid-template-columns: 4fr;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     grid-auto-rows: minmax(50px, auto);
+}
+
+.image {
+    background-image: url('../../assets/pic04.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.8
 }
