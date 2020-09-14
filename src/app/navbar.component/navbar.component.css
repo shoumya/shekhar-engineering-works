@@ -11,3 +11,8 @@ ul li {
 .navbar-background {
     background-color: #3b648e!important;
 }
+
+.title{
+    font-size: 15px;
+     margin-left: 10px
+}
