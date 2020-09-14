@@ -1,8 +1,0 @@
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-p {
-    grid-row: 1
-}

@@ -1,25 +1,46 @@
-<nav class="navbar navbar-expand-md bg-dark navbar-dark wrapper">
-  <a class="navbar-brand" href="#">
-    <img src="../../assets/logo-sew.PNG" alt="Site Logo" style="width: 50px" />
-    (SEW) Sekhar Engineering Works</a
+<div class="container">
+  <nav
+    class="navbar navbar-expand-md navbar-dark bg-dark navbar-background wrapper"
   >
-  <div>
-    <ul class="navbar-nav mr-auto" style="float: right">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/sew/home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/sew/aboutus">AboutUs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/sew/imagegallery">Our Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/sew/contactus">Contacts</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/sew/feedback">Feedback</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <button
+      class="navbar-toggler"
+      data-toggle="collapse"
+      data-target="#collapse_target"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+      <img
+        src="../../assets/logo-sew.PNG"
+        alt="Site Logo"
+        style="width: 50px"
+      />
+      Sekhar Engineering Works</a
+    >
+
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="collapse_target"
+    >
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sew/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sew/aboutus">AboutUs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sew/imagegallery">Our Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sew/contactus">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/sew/feedback">Feedback</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <app-sew-info></app-sew-info>
+</div>

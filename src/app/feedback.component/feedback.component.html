@@ -1,47 +1,45 @@
-<div class="container image" style="margin-top: 20px">
-  <div class="wrapper">
-    <form #regForm="ngForm" (ngSubmit)="Register(regForm)">
-      <h5 class="text-center" style="color:white">FeedBack Form</h5>
-      <br />
-      <div class="form-group">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="Title"
-          name="title"
-          ngModel
-        />
-      </div>
-      <div class="form-group">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="description"
-          name="lastname"
-          ngModel
-        />
-      </div>
+<div class="container">
+  <form class="form-style" #regForm="ngForm" (ngSubmit)="Register(regForm)">
+    <h5 class="text-center" style="color: #000">FeedBack Form</h5>
+    <br />
+    <div class="form-group">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Title"
+        name="title"
+        ngModel
+      />
+    </div>
+    <div class="form-group">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="description"
+        name="lastname"
+        ngModel
+      />
+    </div>
 
-      <div class="form-group">
-        <textarea
-          rows="6"
-          class="form-control"
-          placeholder="feedback"
-          name="feedback"
-          ngModel
-        >
-        </textarea>
-      </div>
-      <div>
-        <button
-          type="submit"
-          class="btn btn-primary"
-          id="register"
-          style="float: right"
-        >
-          Feedback Form
-        </button>
-      </div>
-    </form>
-  </div>
+    <div class="form-group">
+      <textarea
+        rows="6"
+        class="form-control"
+        placeholder="feedback"
+        name="feedback"
+        ngModel
+      >
+      </textarea>
+    </div>
+    <div>
+      <button
+        type="submit"
+        class="btn btn-primary"
+        id="register"
+        style="float: right"
+      >
+        Feedback Form
+      </button>
+    </div>
+  </form>
 </div>
